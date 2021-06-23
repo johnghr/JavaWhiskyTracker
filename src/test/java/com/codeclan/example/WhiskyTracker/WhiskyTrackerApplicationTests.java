@@ -40,7 +40,11 @@ public class WhiskyTrackerApplicationTests {
 		assertEquals(6, foundWhisky.size());
 	}
 
-	@Test
-	public void canFindByDistilleryLessThanYear
+//	@Test
+//	public void canFindByDistilleryLessThanYear() {
+//		Distillery distillery1 = distilleryRepository.getOne(1l);
+//		List<Whisky> foundWhisky = whiskyRepository.findByDistilleryNameAndAge("Glendronach", 2020);
+//		assertEquals(1, foundWhisky.size());
+//	}
 
 }
